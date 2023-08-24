@@ -1,0 +1,501 @@
+/* For Screen Size-992 */
+@media(max-width:992px){
+	/* Header Section */
+	
+	.intro{
+	margin: 0 0 20px 0;
+	}
+	.intro h1 {
+    font-size: 44px;
+    margin: 0;
+	}
+	.intro p {
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+	}
+	.banner-item img {
+    width: 90%;
+	}
+	/* Feature Section	*/
+	.feature-section {
+    margin: 45px 0;
+	}
+	.item-des p {
+    padding: 10px 0px;
+	}
+	/* Device Section */
+	.device-des {
+    margin: 0 0 5% 0;
+	}
+	.device-des span {
+    margin: 20px 0;
+	}
+	.custom-des h3 {
+    margin: 40px 0 20px 0;
+	}
+	.custom-des span {
+    margin: 20px 0;
+	}
+	.buttons ul li {
+    margin-right: 10px;
+	}
+	.download-btn {
+    padding: 15px 15px;
+    font-size: 13px;
+	}
+	.features-btn {
+    padding: 15px 15px;
+    font-size: 13px;
+	}
+	.purchase-section h3 {
+    margin: 40px 0;
+    font-size: 23px;
+	}
+	/* Price Section */
+	.price-section .row-title {
+    margin: 40px 0;
+	}
+	.row-title h1 {
+    margin: 15px 0;
+	}
+	.price h1 {
+    font-size: 45px;
+    padding: 25px;
+	}
+	.price p {
+    font-size: 15px;
+	}
+	.price-title h2 {
+    font-size: 20px;
+	}
+	.order p {
+    padding: 15px;
+    font-size: 16px;
+	}
+	.order-button a {
+    margin: 0px 35px;
+    padding: 10px;
+	}
+	/* Contact Section */
+	.contact-section {
+    padding: 35px 0 270px 0;
+	}
+	.contact-section .row-title {
+	    margin-bottom: 35px;
+	}
+	.form-box {
+    padding: 30px;
+    top: 60%;
+    width: 80%;
+	}
+	/* Footer Section */
+	.footer {
+	    margin: 30px auto;
+	}
+	.social-media {
+    margin: 25px;
+	}
+}
+
+/* For Screen Size-767 */
+@media (max-width: 768px){
+	/* Header Section */
+	.header-section{
+		position: relative;
+	}
+	.banner-item img {
+    position: static;
+	}
+	.column{
+	flex-direction: column-reverse;
+	}
+	.hide-dsk{
+		display: block;
+	}
+	.hide-mb{
+		display: none;
+	}
+	.banner-item img {
+	    width: 75%;
+	    margin: 15px 55px;
+	}
+	.intro {
+     margin: 0; 
+    text-align: center;
+	}
+	.intro h3 {
+	font-size: 18px;
+	}
+	.intro h1 {
+    font-size: 27px;
+    color: #ffffff;
+    margin: 0;
+	}
+	.intro p {
+    margin: 15px 0;
+    font-size: 18px;
+	}
+	.buttons ul {
+    text-align: center;
+    margin: 40px 0;
+	}
+	.buttons ul li {
+    margin: 0 15px;
+	}
+	.download-btn {
+    padding: 15px;
+    font-size: 12px;
+	}
+	.features-btn {
+    padding: 15px;
+    font-size: 12px;
+	}
+	.nav-item {
+    text-align: center;
+    margin: 0 40%;
+	}
+
+	/* Feature Section */
+	.row-title span {
+    margin: 25px auto;
+    }
+
+	/* Device Section */
+	.device-section .device-photo img {
+    margin: 0 0 0 52px;
+    width: 75%;
+	}
+	.device-des {
+    text-align: center;
+	}
+	.device-des span {
+    margin: 25px auto;
+	}
+	.device-des h3 {
+    margin: 20px 0;
+    }
+	.device-des p {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+	}
+	.device-section {
+	    margin-bottom: 35px;
+	}
+		.column{
+	flex-direction: column-reverse;
+	}
+
+	/* Customization Section */
+	.custom-section {
+    padding-bottom: 30px;
+	}
+	.custom-section .image img {
+    width: 80%;
+    margin-left: 35px;
+	}
+	.custom-des{
+    text-align: center;
+	}
+	.custom-des span {
+    margin: 20px auto;
+	}
+	.custom-des h3 {
+    margin: 20px 0;
+	}
+
+	/* Purchase Section */
+	.purchase-section h3 {
+	    margin: 30px 0;
+	    font-size: 22px;
+	}
+	.purchase-section h3 b{
+		display: block;
+	}
+	.purchase-section .features-btn {
+    padding: 10px;
+    font-size: 11px;
+	}
+	.purchase-section .download-btn {
+    padding: 10px;
+    font-size: 11px;
+	}
+	.purchase-section .buttons ul li {
+     margin: 5px;
+	}
+
+	/* Price Table */
+	.price-table{
+    margin-bottom: 25px;
+	}
+	/* Contact Section */
+	.form-box {
+	    width: 60%;
+	}
+	/* Footer Section */
+	.footer p {
+	    font-size: 12px;
+	}
+}
+
+/* For Screen Size-575 */
+@media (max-width:576px){
+	/* Header Section */
+	.banner-item img {
+    width: 50%;
+    margin: 15px 0 0 145px;
+	}
+	.intro h3 {
+    font-size: 16px;
+	}
+	.intro h1 {
+    font-size: 24px;
+    margin: 20px 0;
+	}
+	.intro p {
+    margin: 15px 16px;
+    font-size: 16px;
+	}
+	/* Feature Section */
+	.item-des p {
+    padding: 10px 75px;
+	}
+	/* Device Section */
+	.device-section .description{
+	    padding-left: 160px;
+	}
+	/* Customization Section */
+	.custom-section .custom-des p{
+		font-size: 17px;
+	}
+	/* Purchase Section */
+	.purchase-section h3 {
+    text-align: center;
+    margin: 15px 0 0 0;
+	}
+	.purchase-section .buttons {
+    margin: 30px 0;
+	}
+	.buttons ul {
+     margin: 0; 
+	}
+	/* Price Section */
+	.price-table {
+	    margin-bottom: 25px;
+	    margin: 0 110px 20px;
+	}
+	.price h1 {
+    font-size: 60px;
+	}
+	.order-button a {
+    margin: 0px 70px;
+	}
+
+	/* Contact Us Section */
+	.form-box {
+    top: 65%;
+    width: 70%;
+	}
+	.icon{
+		margin-bottom: 20px;
+	}
+}
+
+/* For Screen Size-425 */
+@media (max-width: 426px){
+	/* Header Section */
+	.header-section .container {
+    padding-bottom: 35px;
+	}
+	.banner-item img {
+    margin: 15px 0 0 105px;
+	}
+	.intro h1 {
+	    font-size: 21px;
+	    margin: 20px 0;
+	}
+	.intro p {
+    margin: 15px 25px 25px;
+	}
+	/* Device Section */
+	.device-section .description {
+	    padding-left: 95px;
+	}
+	/* Price Section */
+	.price-table {
+	    margin: 0 45px 20px;
+	}
+	/* Footer Section */
+	.footer p {
+	    font-size: 12px;
+	}
+}
+
+/* For Screen Size-375 */
+@media (max-width: 376px){
+	/* header Section */
+	.intro h1 {
+	    font-size: 22px;
+	}
+	/* Device Section */
+	.device-section .description {
+	    padding-left: 50px;
+	}
+}
+
+/* For Screen Size-320 */
+@media (max-width:321px){
+	/* Header Section */
+	.nav-item {
+    margin: 0px 30%;
+	}
+	.header-section .container{
+	padding-bottom: 22px;
+	}
+	.banner-item img {
+    margin: 15px 0 0 80px;
+    padding-bottom: 11px;
+	}
+	.intro h3 {
+    font-size: 14px;
+	}
+	.intro h1 {
+    font-size: 20px;
+    margin-top: 1px;
+	}
+	.intro p {
+	margin: 15px 5px 25px;
+    font-size: 15px;
+	}
+	.buttons ul li {
+    margin: 30px 0;
+    display: block;
+	}
+	.download-btn {
+    padding: 10px;
+    font-size: 10px;
+	}
+	.features-btn {
+    padding: 10px 12px;
+    font-size: 10px;
+	}
+	/* Feature Section */
+	.row-title h3{
+	font-weight: 700;
+	}
+	.item-des p {
+    padding: 10px 25px;
+    font-size: 15px;
+	}
+	/* Device Section */
+	.device-section .device-photo img {
+	margin: 0 0 0 45px;
+	width: 75%;
+	margin-bottom: 9px;
+	}
+	.device-des h3 {
+	font-weight: 700;
+	margin: 11px;
+	}
+	.device-section .description {
+	padding-left: 10px;
+	}
+	/* Customization Section */
+	.custom-des h3{
+	margin: 12px 0;
+	font-weight: 700;
+	}
+	.device-des p {
+	    margin: 0 10px;
+	    font-size: 15px;
+	}
+	.description h5 {
+    display: inline;
+    margin: 15px;
+    font-size: 16px;
+	}
+	.custom-section .custom-des p {
+    font-size: 15px;
+    margin: 0 20px;
+	}
+	/* Purchase Section */
+	.purchase-section .buttons ul li {
+    margin: 25px auto;
+	}
+	.purchase-section h3 {
+    font-size: 20px;
+	}
+	.purchase-section .download-btn {
+    font-size: 10px;
+	}
+	.purchase-section .features-btn {
+    padding: 10px 12px;
+    font-size: 10px;
+	}
+	/* Ptice Section */
+	.price-table {
+	    margin: 0 15px 20px;
+	}
+	.price-title h2 {
+	    padding: 10px 0;
+	}
+	.price h1 {
+    font-size: 50px;
+	}
+	.order p {
+    font-size: 15px;
+	}
+
+	/* Contact Section */
+	.row-title h1{
+	margin: 11px 0;
+	}
+	.row-title span{
+	margin: 19px auto;
+	}
+	.contact-section .icon i{
+	font-size: 21px;
+	padding-bottom: 12px;
+	}
+	.contact-section .icon p{
+	font-size: 15px;
+	margin-bottom: 0px;
+	}
+	.form-box .form-control{
+	padding: 8px;
+	}
+	.form-box form textarea{
+	height: 143px;
+	}
+	.form-box form input[type='submit']{
+	padding: 12px 20px;
+	font-size: 12px;
+	font-weight: 400;
+	margin-left: 39px;
+	}
+	.form-box {
+    top: 67%;
+    width: 80%;
+	}
+
+	/* Footer Section */
+	.social-media {
+	margin-top: 5px;
+	margin-bottom: 1px;
+	}
+	.footer {
+	margin: 18px auto;
+	}
+	.footer ul li {
+	padding: 0 11px;
+	}
+	.footer ul li a {
+	font-size: 17px;
+	}
+	.footer p {
+	font-size: 14px;
+	}
+
+}
+
+
